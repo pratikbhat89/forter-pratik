@@ -6,7 +6,6 @@ This project is a Node.js application that provides an API to retrieve the count
 ## Table of Contents
 
 - [Installation](#installation)
-- [Environment Variables](#environment-variables)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
@@ -31,22 +30,6 @@ This project is a Node.js application that provides an API to retrieve the count
    ```bash
    npm install
    ```
-
-## Environment Variables
-
-Create a `.env` file in the root of your project and set the following environment variables:
-
-```env
-PORT=3000
-IP_STACK_API_KEY=509565499448f6b73345a106496f04cf
-IP_STACK_RATE_LIMIT=2
-IP_API_RATE_LIMIT=2
-```
-
-- **PORT**: The port on which the server will run.
-- **IP_STACK_API_KEY**: Your API key for the IP Stack service.
-- **IP_STACK_RATE_LIMIT**: The rate limit for the IP Stack API (requests per hour).
-- **IP_API_RATE_LIMIT**: The rate limit for the IP API (requests per hour).
 
 ## Usage
 
